@@ -3,10 +3,7 @@
 
 CREATE DATABASE ⁠ tried&tasted ⁠;
 
--- Drop tables if they already exist
-DROP TABLE IF EXISTS 
-  ShoppingListDetails, MealPlanRecipes, RecipeIngredients, Favorites, 
-  Consumption, Pantry, ShoppingList, MealPlan, Recipes, Ingredients, Users;
+
 
 -- Users Table
 CREATE TABLE Users (
